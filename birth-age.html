@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Age Calculator</title>
+</head>
+<body>
+
+<script>
+    let birthYear = prompt("Please enter your birth year:");
+    birthYear = parseInt(birthYear);
+    let currentYear = new Date().getFullYear();
+    let age = currentYear - birthYear;
+    alert("You are " + age + " years old.");
+</script>
+
+</body>
+</html>
